@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Reservation</title>
+    </head>
+    <body>	
+	    <!--L'entete commence ici-->	
+        <div id="entete">
+            <div id="entete1">
+                <h3>MONUMENT DE LA RENAISSACE</h3>Tel: +221 77777777<br> Email: <a href="mailto:contact@tourisme.sn">contact@tourisme.sn</a>
+            </div>
+            <div id="entete2">
+                <h3 class="pas_daffichage">Suivez nous sur les reseaux sociaux : </h3>
+				<div class="element_float div_logo">
+					<a href="https://www.facebook.com" target="_blank"><img src="media/images/facebook_logo.png" alt="logo de facebook"></a>
+				</div>
+				<div class="element_float div_logo">
+					<a href="https://www.youtube.com" target="_blank"><img src="media/images/youtube_logo.png" alt="logo de youtube"></a>
+				</div> 
+				<div class="element_float div_logo">
+					<a href="https://www.tiktok.com" target="_blank"><img src="media/images/tiktok_logo.png" alt="logo de tiktok"></a>
+				</div>
+            </div>
+            <div  class="element_non_float">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="info.html">Infos utiles</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="Decouvrez_Dakar.html">Decouvrez Dakar</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                </ul>
+            </div>    
+        </div>
+		<!--L'entete se termine ici-->
+		<!--le coprs commence ici-->		
+		<h1>Reservation</h1>		
+        <div>
+		    <div class="element_float div_45pour100">
+			    <p class="paragraphe_corps">Retrouvez dans ce tableau la tarification en vigueur. Les prix dans le tableau sont en franc CFA.
+				Cet argent permet de soutenir l'effort de l'Etat dans l'entretien des monuments et lieux touristiques.<br>
+				Il se reparti entre les collectivités locales et l'Etat. A hauteur de 70% pour l'Etat et 30% pour les collectivités locales
+                de Ouakam
+				</p>
+			</div>
+			<div class="element_float div_45pour100">		
+                <table>
+					<tr>
+						<th colspan="2">STATUT</th>
+						<th>TARIF</th>
+					</tr>
+					<tr>
+						<th rowspan="2">Senegalais</th>
+						<td>Adulte</td>
+						<td>2000</td>
+					</tr>
+					<tr>
+						<td>Enfant</td>
+						<td>Gratuit</td>
+					</tr>
+					<tr>
+						<th rowspan="2">Etranger</th>
+						<td>Resident</td>
+						<td>5000</td>
+					</tr>
+					<tr>
+						<td>Non resident</td>
+						<td>7500</td>
+					</tr>
+                </table>
+			</div>
+		</div>	
+        <form>
+            <fieldset>
+                <legend><h2>Reservez votre acces en ligne pour eviter de faire la queue au guichet</h2>
+                </legend>
+                <div class="div_formulaire">
+                    <label for="nom">Nom : </label>
+                    <input type="text" placeholder="Nom" id="nom">
+                </div>
+                <div class="div_formulaire">
+                    <label for="prenom">Prenom : </label>
+                    <input type="text" placeholder="Prenom" id="prenom">
+                </div>
+                <div class="div_formulaire">
+                    <label>Nationalite : </label>
+                    <select name="" id="">
+                        <optgroup label="Afrique">
+                            <option>Senegal</option>
+                            <option>Mauritanie</option>
+                            <option>Mali</option>
+                            <option>Niger</option>
+                            <option>Gabon</option>
+                            <option>Gambie</option>
+                            <option>Tchad</option>
+                            <option>Zambie</option>
+                            <option>Angola</option>
+                            <option>Liberia</option>
+                            <option>Algerie</option>
+                            <option>Maroc</option>
+                            <option>Gambie</option>
+                            <option>Namibie</option>
+                            <option>Afrique du sud</option>
+                            <option>Cote d'ivoire</option>
+                        </optgroup>
+                        <optgroup label="Amerique">
+                            <option>Etats Unis</option>
+                            <option>Canada</option>
+                            <option>Equateur</option>
+                            <option>Bresil</option>
+                            <option>Argentine</option>
+                            <option>Mexique</option>
+                            <option>Venezuela</option>
+                            <option>Costa Rica</option>
+                            <option>Colombie</option>
+                        </optgroup>
+                        <optgroup label="Asie">
+                            <option>Chine</option>
+                            <option>Vietnam</option>
+                            <option>Malaisie</option>
+                            <option>Mongolie</option>
+                            <option>Inde</option>
+                            <option>Philipines</option>
+                            <option>Japon</option>
+                            <option>Corée du sud</option>
+                            <option>Corée du nord</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option>Espagne</option>
+                            <option>Allemangne</option>
+                            <option>Belgique</option>
+                            <option>Portugal</option>
+                            <option>Russie</option>
+                            <option>Angleterre</option>
+                            <option>Autriche</option>
+                            <option>Polongne</option>
+                            <option>Slovenie</option>
+                        </optgroup>
+                        <optgroup label="Oceanie">
+                            <option>Australie</option>
+                            <option>Fidji</option>
+                            <option>Nouvelle Zelande</option>
+                            <option>Papouasie-Nouvelle-Guinée</option>
+                            <option>Iles Salomon</option>
+                            <option>Vanuatu</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="div_formulaire">
+                    <label for="tel">Telephone :</label>
+                    <input type="tel" placeholder="Telephone" id="tel">
+                </div>
+                <div class="div_formulaire">
+                    <label for="email">Email :</label>
+                    <input type="mail" placeholder="Email" id="email">
+                </div>
+                <p class="paragraphe_corps">Combien de personne vous accompagnent</p>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Senegalais</th>
+                        <th>Etranger resident</th>
+                        <th>Etranger non resident</th>
+                    </tr>
+                    <tr>
+                        <th>Adulte</th>
+                        <td>
+                            <form>
+                                <input type="number" min="0" max="99">
+                            </form>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="number" min="0" max="99">
+                            </form>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="number" min="0" max="99">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Enfant</th>
+                        <td>
+                            <form>
+                                <input type="number" min="0" max="99">
+                            </form>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="number" min="0" max="99">
+                            </form>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="number" min="0" max="99">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+                <div class="div_formulaire">
+                    <input type="submit" value="valider">
+                </div>
+                <p class="paragraphe_corps">Vous pouvez utilisez les moyens de paiement ci dessus :</p>
+                <div>
+                    <img class="logo" src="media/images/Orange-Money-logo.png" alt="logo Orange Money">
+                    <img class="logo" src="media/images/Wave-logo.png" alt="logo Wave">
+                    <img class="logo" src="media/images/Moov_Africa_logo.png" alt="logo Moov Africa">
+                </div>
+            </fieldset>
+        </form>		
+		<!--Le pied de page commence ici-->	
+        <div id="div_pied_de_page">
+            <div id="div_horaire">
+                <p>Horaire d'ouverture</p>
+                <p>Lundi-Jeudi 08h-20h</p>
+                <p>Vendredi-Dimanche 08h-00h</p>
+            </div>
+            <div id="div_newsletter">
+                <p>Inscription à la newsletter</p>
+                <p>Recevez nos derniere infos en vous inscrivant à la Newsletter</p>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <input type="submit" value="S'inscrire">
+                </form>
+            </div>
+            <div id="div_archive">
+                <p>Archives</p>
+                <p>Parcourez les archives des années precedentes</p>
+                <ul>
+                    <li>2023</li>
+                    <li>2022</li>
+                    <li>2021</li>
+                </ul>
+            </div>
+            <div id="div_auteur">
+                <p>Conception et Realisation Seydou Diarra</p>
+            </div>
+        </div>
+    </body>
+</html>

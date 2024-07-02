@@ -1,0 +1,247 @@
+@media (max-width: 747px) {
+    body{
+        min-width: 100%;
+        max-width: 100%;
+        border-right: none;
+    } 
+    .div_45pour100{
+        min-width: 100%;
+    }
+    #mot_dg{
+        min-width: 98%;
+    }
+    #video_accueil{
+        min-width: 98%;
+        margin: auto;
+    }
+    .galerie_photo{
+        min-width: 98%;
+        margin: auto;
+    }
+    .photo_apropos{
+        min-width: 100%;
+        min-height: auto;
+        padding-bottom: 5px;
+        margin: auto;
+    }
+    .pas_daffichage{
+        display: none;
+    }
+    .div_logo{
+        max-width: 30px;
+    }  
+    .para_mot, .para_accueil_droite, .para_accueil_gauche{
+        height: auto;
+        overflow: visible;
+    }
+ }
+ .galerie_photo{
+    max-width: 100%;
+    /*height: 350px;*/
+    margin: auto;
+ }
+body{
+    margin-left: 15%;
+    margin-right: 15%; 
+    border:1px solid #d69f7e;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Helvetica, sans-serif, Arial;
+}
+.para_mot_dg{
+    width: 100%;
+    height: 250px;
+    overflow-y: auto;
+    scrollbar-color: blue white;
+    scrollbar-width: thin;
+}
+.para_accueil_gauche, .para_accueil_droite{
+    width: 100%;
+    height: 360px;
+    overflow-y: auto;
+    scrollbar-color: blue white;
+    scrollbar-width: thin;
+}
+.li_decouvrez_dakar{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h5{
+    clear:both;	
+	color:blue;
+    text-align: center;
+}
+.element_non_float, form{
+    clear:both;
+}
+a>img{
+	width:100%;
+}
+.div_logo{
+    width: 40px;
+}
+.photo_directeur{
+	width:20%;
+	height: 20%;
+	border-radius:50px;
+}
+.paragraphe_corps, .li_corps{
+	font-size:20px;
+}
+.mot_important{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.caracteristique_monument{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.div_formulaire{
+	margin-bottom:15px;
+	font-size:20px;
+	font-weight:bold;
+}
+#entete{
+    border: 1px solid #d69f7e;
+    border-bottom: none;
+}
+#entete1, #entete2{
+    width: 40%;
+    float: left;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#entete1>p, #entete2>p{
+    padding-top: 18px;
+}
+#entete>div>ul{
+   background-color: #d69f7e;
+   clear: both;
+}
+#entete>div>ul>li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 30px;
+    padding-right: 20px;
+    height: 100%;  
+}
+#entete2+div>ul>li>a{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#entete2+div>ul>li:hover{
+    background-color: blue;
+    border-radius: 10px;
+}
+#entete2{
+	margin-left:100px;
+}
+#video_accueil{
+    width: 60%;
+    height: 380px;   
+}
+#video_youtube{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#mot_dg{
+    padding-left: 5px;
+    width: 35%;
+}
+.div_45pour100{
+	width:45%;
+}
+.div_para, .para_apropos{
+	float:left;
+}
+.element_float{
+	float:left;
+	margin:5px;
+}
+.galerie{
+    width: 25%;
+    padding-bottom: 5px;
+}
+ol>li{
+    font-size: 20px;
+}
+.regle_monument{
+    color:red;
+    font-size: 20px;
+}
+#div_pied_de_page{
+    background-color: #001427;
+    color: white;
+	clear:both; 
+}
+#div_horaire, #div_newsletter, #div_archive{
+    float: left;
+    margin: 1%;
+} 
+#div_auteur{
+    clear: both;   
+    background-color: #774936;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+table{
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid #774936;
+}
+input[type="number"]{
+    height: 40px;
+    width: 50px;
+    margin: auto;
+    color:blue;
+    
+}
+label, input[id], select{
+    display: inline-block;
+    width: 250px;
+}
+input, select{
+    border: 1px solid blue;
+    font-size: 20px;
+}
+input:focus, option:focus{
+    background-color: #0466c8;
+    color: white;
+}
+input:invalid, select:invalid{
+    background-color: red;
+    color: white;
+}
+input[value="valider"]{
+    margin-top: 30px;
+    margin-left: 45%;
+    height: 40px;
+    width: 140px;
+    background-color: #0466c8;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+}
+img, video, iframe{
+    max-width: 100%;
+}
+.para_accueil_droite:hover, .para_accueil_gauche:hover, .para_mot_dg:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding-left: 8px;
+}
