@@ -7,7 +7,7 @@
     }
     #video_accueil{
         min-width: 98%;
-	height: 150px;
+	min-height: 250px;
         margin: auto;
     }
     .galerie_photo{
