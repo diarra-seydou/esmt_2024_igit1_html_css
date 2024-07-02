@@ -1,9 +1,4 @@
-@media (max-width: 747px) {
-    body{
-        min-width: 100%;
-        max-width: 100%;
-        border-right: none;
-    } 
+@media (max-width: 747px) { 
     .div_45pour100{
         min-width: 100%;
     }
