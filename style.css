@@ -13,12 +13,6 @@
         min-width: 98%;
         margin: auto;
     }
-    .photo_apropos{
-        min-width: 100%;
-        min-height: auto;
-        padding-bottom: 5px;
-        margin: auto;
-    }
     .pas_daffichage{
         display: none;
     }
@@ -162,10 +156,6 @@ a>img{
 .element_float{
 	float:left;
 	margin:5px;
-}
-.galerie{
-    width: 25%;
-    padding-bottom: 5px;
 }
 ol>li{
     font-size: 20px;
