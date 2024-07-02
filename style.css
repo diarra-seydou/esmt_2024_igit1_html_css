@@ -187,7 +187,6 @@ ol>li{
 #div_horaire, #div_newsletter, #div_archive{
     float: left;
     margin: 1%;
-    font-size: 16px;
 } 
 #div_auteur{
     clear: both;   
