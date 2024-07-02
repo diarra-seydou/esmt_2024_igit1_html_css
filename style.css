@@ -193,6 +193,7 @@ input[type="number"]{
     width: 50px;
     margin: auto;
     color:blue;
+    border-radius: 5px;
     
 }
 label, input[id], select{
