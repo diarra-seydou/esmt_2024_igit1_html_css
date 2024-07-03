@@ -1,6 +1,7 @@
 @media screen and (max-width: 747px) { 
 	body{
 		margin: 0px;
+		min-width: 100%;
 	}
     .div_45pour100{
         min-width: 100%;
